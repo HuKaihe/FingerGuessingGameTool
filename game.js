@@ -113,10 +113,6 @@
             if (keyCode === 13 || keyCode === 40 || keyCode === 32) {
                 $('.next').click();
             }
-        }else if($('.scene2').css('display')!=='none'){
-            if (keyCode === 13 || keyCode === 40 || keyCode === 32) {
-                $('#name-okay').click();
-            }
         }else if($('.scene1').css('display')!=='none'){
             if (keyCode === 13 || keyCode === 40 || keyCode === 32) {
                 $('#num-okay').click();
