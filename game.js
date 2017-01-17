@@ -177,16 +177,14 @@
             $div2 = $countDivs.eq(1),
             $div3 = $countDivs.eq(2);
 
-        count++;
-
         $('.win').empty();
 
-        $div1.fadeIn(200, function () {
-            $div1.fadeOut(100);
-            $div2.fadeIn(200, function () {
-                $div2.fadeOut(100);
-                $div3.fadeIn(200, function () {
-                    $div3.fadeOut(100);
+        $div1.fadeIn(250, function () {
+            $div1.fadeOut(125);
+            $div2.fadeIn(250, function () {
+                $div2.fadeOut(125);
+                $div3.fadeIn(250, function () {
+                    $div3.fadeOut(125);
                     callback();
                 })
             })
@@ -258,6 +256,8 @@
     function changeRecord() {
 
         var $RecordTr, number;
+
+        count++;
 
         for (var i = 0; i < total; i++) {
             if (roles[i].living === 1) {
