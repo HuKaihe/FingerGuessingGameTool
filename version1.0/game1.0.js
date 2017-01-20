@@ -1,3 +1,4 @@
+/*game 1.0*/
 (function () {
     var roles = [], // 游戏玩家
         total, // 游戏玩家人数

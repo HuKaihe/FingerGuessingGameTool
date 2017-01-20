@@ -1,3 +1,4 @@
+/*game 2.0*/
 (function () {
     var roles = [], // 游戏玩家
         total = 0, // 游戏玩家人数
@@ -181,7 +182,7 @@
             $div2 = $countDivs.eq(1),
             $div3 = $countDivs.eq(2);
 
-        $('.win').empty();
+        $('.result').empty();
 
         $div1.fadeIn(250, function () {
             $div1.fadeOut(125);
@@ -323,8 +324,6 @@
     function renderByDecide(winners, losers) {
 
         var $result = $('.result');
-
-        $result.empty();
 
         if(losers){
             render(winners, 'success');
