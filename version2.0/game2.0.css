@@ -5,7 +5,6 @@ html,body {
 .game-box {
     padding: 50px;
     margin: 0 auto;
-    width: 1200px;
 }
 .btn, .input {
     display: inline-block;
@@ -15,11 +14,14 @@ html,body {
 }
 .btn{
     color: aliceblue;
-    background-color: cyan;
+    background-color: rgb(0, 119, 255);
     width: 100px;
     height: 30px;
     margin-top: 20px;
     line-height: 30px;
+}
+.btn-groups {
+    text-align: center;
 }
 .input {
     width: 100%;
@@ -28,7 +30,6 @@ html,body {
 }
 .scene{
     margin: 0 auto;
-    width: 50%;
     display: block;
 }
 .scene0 {
@@ -54,10 +55,10 @@ html,body {
 .result{
     min-height: 300px;
     padding: 15px;
-    border: 1px solid red;
+    border: 1px solid gray;
 }
 .next {
-    background-color: lime;
+    background-color: rgb(28, 185, 28);
 }
 .sort{
     background-color: #ff8018;
@@ -66,20 +67,21 @@ html,body {
     background-color: orangered;
 }
 .next:hover{
-    background-color: green;
+    background-color: rgb(17, 133, 17);
 }
 .restart {
-    background-color: red;
-}
-.show-record{
-    background-color: dodgerblue;
-}
-.show-record:hover{
-    background-color: blue;
+    background-color: rgb(214, 67, 67);
 }
 .restart:hover{
     background-color: brown;
 }
+.show-record{
+    background-color: rgb(0, 119, 255);
+}
+.show-record:hover{
+    background-color: rgb(7, 111, 230);
+}
+
 .success{
     font-size: 22px;
     margin: 15px auto;
@@ -132,7 +134,7 @@ html,body {
     left: 0;
     right: 0;
     margin: auto;
-    width: 500px;
+    max-width: 500px;
     background-color: rgba(0,0,0,0.2);
     color: aliceblue;
     padding: 20px;
@@ -142,6 +144,12 @@ html,body {
 }
 .record table td{
     text-align: center;
+}
+.living-role{
+    margin-top: 30px
+}
+.living-role td {
+    text-align: center
 }
 
 
